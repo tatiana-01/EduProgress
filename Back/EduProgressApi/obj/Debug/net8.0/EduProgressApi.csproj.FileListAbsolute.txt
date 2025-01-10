@@ -1,0 +1,7 @@
+C:\Users\alejandratatiana.par\Documents\TechTitans\EduProgress\EduProgressApi\obj\Debug\net8.0\EduProgressApi.csproj.AssemblyReference.cache
+C:\Users\alejandratatiana.par\Documents\TechTitans\EduProgress\EduProgressApi\obj\Debug\net8.0\EduProgressApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alejandratatiana.par\Documents\TechTitans\EduProgress\EduProgressApi\obj\Debug\net8.0\EduProgressApi.AssemblyInfoInputs.cache
+C:\Users\alejandratatiana.par\Documents\TechTitans\EduProgress\EduProgressApi\obj\Debug\net8.0\EduProgressApi.AssemblyInfo.cs
+C:\Users\alejandratatiana.par\Documents\TechTitans\EduProgress\EduProgressApi\obj\Debug\net8.0\EduProgressApi.csproj.CoreCompileInputs.cache
+C:\Users\alejandratatiana.par\Documents\TechTitans\EduProgress\EduProgressApi\obj\Debug\net8.0\EduProgressApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alejandratatiana.par\Documents\TechTitans\EduProgress\EduProgressApi\obj\Debug\net8.0\EduProgressApi.sourcelink.json
