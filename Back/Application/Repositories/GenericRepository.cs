@@ -14,14 +14,16 @@ public class GenericRepository<T> : IGeneric<T> where T : BaseEntity
         _context = context;
     }
 
-    public virtual void Add(T entity)
+    public async Task<int> Add(T entity)
     {
         _context.Set<T>().Add(entity);
+        return await _context.SaveChangesAsync();
     }
 
-    public virtual void AddRange(IEnumerable<T> entities)
+    public async Task<int> AddRange(IEnumerable<T> entities)
     {
         _context.Set<T>().AddRange(entities);
+        return await _context.SaveChangesAsync();
     }
 
     public virtual IEnumerable<T> Find(Expression<Func<T, bool>> expression)
@@ -49,18 +51,21 @@ public class GenericRepository<T> : IGeneric<T> where T : BaseEntity
         return await _context.Set<T>().FindAsync(id);
     }
 
-    public virtual void Remove(T entity)
+    public async Task<int> Remove(T entity)
     {
         _context.Set<T>().Remove(entity);
+        return await _context.SaveChangesAsync();
     }
 
-    public virtual void RemoveRange(IEnumerable<T> entities)
+    public async Task<int> RemoveRange(IEnumerable<T> entities)
     {
         _context.Set<T>().RemoveRange(entities);
+        return await _context.SaveChangesAsync();
     }
 
-    public virtual void Update(T entity)
+    public async Task<int> Update(T entity)
     {
         _context.Set<T>().Update(entity);
+        return await _context.SaveChangesAsync();
     }
 }

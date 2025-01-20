@@ -1,6 +1,7 @@
 using ApiSkeleton4.Extensions;
 using Infrastructure;
 using System.Reflection;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,13 +14,13 @@ builder.Services.AddSwaggerGen();
 //builder.Services.ConfigureRateLimiting();
 //builder.Services.ConfigureApiVersioning();
 builder.Services.AddJwt(builder.Configuration);
+builder.Services.AddDependencies();
 builder.Services.AddApplicationService();
 builder.Services.ConfigureCors();
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
-builder.Services.AddDbContext<EduProgressContext>(optionsBuilder =>
+builder.Services.AddDbContext<EduProgressContext>(options =>
 {
-    string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    //optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
 var app = builder.Build();
 
@@ -30,21 +31,21 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-/*using (var scope = app.Services.CreateScope())
+using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var loggerFactory = services.GetRequiredService<ILoggerFactory>();
     try
     {
         var context = services.GetRequiredService<EduProgressContext>();
-        await context.Database.MigrateAsync();
+       await context.Database.MigrateAsync();
     }
     catch (Exception ex)
     {
         var logger = loggerFactory.CreateLogger<Program>();
         logger.LogError(ex, "Ocurrió un error durante la migración");
     }
-}*/
+}
 app.UseCors("CorsPolicy");
 
 app.UseHttpsRedirection();

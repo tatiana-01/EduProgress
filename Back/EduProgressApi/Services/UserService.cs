@@ -1,7 +1,5 @@
 using Domain.Entities;
 using Domain.Interfaces;
-using Dominio.Entities;
-using Dominio.Interfaces;
 using EduProgressApi.Dtos;
 using EduProgressApi.Helpers;
 using Microsoft.AspNetCore.Identity;
@@ -16,14 +14,16 @@ namespace EduProgressApi.Services;
 public class UserService : IUserService
 {
     private readonly JWT _jwt;
-    private readonly IUnitOfWork _unitOfWork;
+    private readonly IUsuario _usuario;
+    private readonly IRol _rol;
     private readonly IPasswordHasher<Usuario> _passwordHasher;
     //private readonly IJwtGenerador _jwtGenerador;
 
-    public UserService(IUnitOfWork unitOfWork, IOptions<JWT> jwt, IPasswordHasher<Usuario> passwordHasher /*, IJwtGenerador jwtGenerador */)
+    public UserService(IUsuario usuario, IRol rol, IOptions<JWT> jwt, IPasswordHasher<Usuario> passwordHasher /*, IJwtGenerador jwtGenerador */)
     {
         _jwt = jwt.Value;
-        _unitOfWork = unitOfWork;
+        _usuario = usuario;
+        _rol = rol;
         _passwordHasher = passwordHasher;
         // _jwtGenerador = jwtGenerador;
     }
@@ -39,20 +39,26 @@ public class UserService : IUserService
 
         usuario.Password = _passwordHasher.HashPassword(usuario, registerDto.Password);
 
-        var usuarioExiste = _unitOfWork.Usuarios
-                                    .Find(u => u.Username.ToLower() == registerDto.Username.ToLower())
+        var persona = new Persona()
+        {
+            Nombre = registerDto.Nombre,
+            Apellido = registerDto.Apellido,
+            FechaNacimiento = registerDto.FecNacimiento
+        };
+
+        var usuarioExiste = _usuario.Find(u => u.Username.ToLower() == registerDto.Username.ToLower())
                                     .FirstOrDefault();
 
         if (usuarioExiste == null)
         {
-            var rolPredeterminado = _unitOfWork.Roles
+            var rolPredeterminado = _rol
                                     .Find(u => u.Nombre == Autorizacion.rol_predeterminado.ToString())
                                     .First();
             try
             {
                 usuario.Roles.Add(rolPredeterminado);
-                _unitOfWork.Usuarios.Add(usuario);
-                await _unitOfWork.SaveAsync();
+                usuario.Persona = persona;
+                await _usuario.Add(usuario);
 
                 return $"El usuario  {registerDto.Username} ha sido registrado exitosamente";
             }
@@ -70,7 +76,7 @@ public class UserService : IUserService
 
     public async Task<string> AddRolAsync(AddRolDto model)
     {
-        var usuario = await _unitOfWork.Usuarios
+        var usuario = await _usuario
                     .GetByUsernameAsync(model.Username);
         if (usuario == null)
         {
@@ -79,7 +85,7 @@ public class UserService : IUserService
         var resultado = _passwordHasher.VerifyHashedPassword(usuario, usuario.Password, model.Password);
         if (resultado == PasswordVerificationResult.Success)
         {
-            var rolExiste = _unitOfWork.Roles
+            var rolExiste = _rol
                                         .Find(u => u.Nombre.ToLower() == model.Role.ToLower())
                                         .FirstOrDefault();
             if (rolExiste != null)
@@ -90,8 +96,7 @@ public class UserService : IUserService
                 if (usuarioTieneRol == false)
                 {
                     usuario.Roles.Add(rolExiste);
-                    _unitOfWork.Usuarios.Update(usuario);
-                    await _unitOfWork.SaveAsync();
+                    await _usuario.Update(usuario);
                 }
                 return $"Rol {model.Role} agregado a la cuenta {model.Username} de forma exitosa.";
             }
@@ -103,7 +108,7 @@ public class UserService : IUserService
     public async Task<DatosUsuarioDto> GetTokenAsync(LoginDto model)
     {
         DatosUsuarioDto datosUsuarioDto = new DatosUsuarioDto();
-        var usuario = await _unitOfWork.Usuarios
+        var usuario = await _usuario
                     .GetByUsernameAsync(model.Username);
         if (usuario == null)
         {
@@ -138,8 +143,7 @@ public class UserService : IUserService
                 datosUsuarioDto.RefreshToken = refreshToken.Token;
                 datosUsuarioDto.RefreshTokenExpiration = refreshToken.Expires;
                 usuario.RefreshTokens.Add(refreshToken);
-                _unitOfWork.Usuarios.Update(usuario);
-                await _unitOfWork.SaveAsync();
+                await _usuario.Update(usuario);
             }
             return datosUsuarioDto;
 
@@ -154,7 +158,7 @@ public class UserService : IUserService
     {
         var datosUsuarioDto = new DatosUsuarioDto();
 
-        var usuario = await _unitOfWork.Usuarios.GetByRefreshTokenAsync(refreshToken);
+        var usuario = await _usuario.GetByRefreshTokenAsync(refreshToken);
 
         if (usuario == null)
         {
@@ -178,8 +182,7 @@ public class UserService : IUserService
         //Generando un nuevo refreshToken y guardarlo en la base de datos 
         var newRefreshToken = CreateRefreshToken();
         usuario.RefreshTokens.Add(newRefreshToken);
-        _unitOfWork.Usuarios.Update(usuario);
-        await _unitOfWork.SaveAsync();
+        await _usuario.Update(usuario);
 
         //Generando un nuevo Json Web Token 
         datosUsuarioDto.Mensaje = "Ok";
@@ -251,8 +254,7 @@ public class UserService : IUserService
         usuario.Username = model.Username;
         usuario.Email = model.Email;
         usuario.Password = _passwordHasher.HashPassword(usuario, model.Password);
-        _unitOfWork.Usuarios.Update(usuario);
-        await _unitOfWork.SaveAsync();
+        await _usuario.Update(usuario);
         return usuario;
     }
 

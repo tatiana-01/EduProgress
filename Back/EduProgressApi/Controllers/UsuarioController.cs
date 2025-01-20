@@ -5,17 +5,18 @@ using EduProgressApi.Dtos;
 using EduProgressApi.Helpers;
 using EduProgressApi.Services;
 using Microsoft.AspNetCore.Mvc;
+using static EduProgressApi.Helpers.Autorizacion;
 
 namespace EduProgressApi.Controllers;
 public class UsuarioController : BaseApiController
 {
-    private readonly IUnitOfWork _unitOfWork;
+    private readonly IUsuario _usuario;
     private readonly IMapper _mapper;
     private readonly IUserService _userService;
-    public UsuarioController(IUnitOfWork unitOfWork, IMapper mapper, IUserService userService)
+    public UsuarioController(IUsuario usuario, IMapper mapper, IUserService userService)
     {
         _mapper = mapper;
-        _unitOfWork = unitOfWork;
+        _usuario = usuario;
         _userService=userService;
     }
 
@@ -84,7 +85,7 @@ public class UsuarioController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<List<UsuarioDto>>> GetTodos()
     {
-        var usuarios = await _unitOfWork.Usuarios.GetAllAsync();
+        var usuarios = await _usuario.GetAllAsync();
         return _mapper.Map<List<UsuarioDto>>(usuarios);
     }
  */
@@ -96,7 +97,7 @@ public class UsuarioController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<UsuarioGetAllDto>> Get(int id)
     {
-        var usuario = await _unitOfWork.Usuarios.GetByIdAsync(id);
+        var usuario = await _usuario.GetByIdAsync(id);
         if (usuario == null) {
             return NotFound();
         }
@@ -110,7 +111,7 @@ public class UsuarioController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public ActionResult<UsuarioGetAllDto> GetByUsername(string username)
     {
-        var usuarioXrol =  _unitOfWork.Usuarios.Find(p=>p.Username==username).First();
+        var usuarioXrol =  _usuario.Find(p=>p.Username==username).First();
         if (usuarioXrol == null) {
             return NotFound();
         }
@@ -124,7 +125,7 @@ public class UsuarioController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<Pager<UsuarioGetAllDto>>> GetTodoPagina([FromQuery] Params usuarioParams)
     {
-        var usuariosXroles = await _unitOfWork.Usuarios.GetAllAsync(usuarioParams.PageIndex, usuarioParams.PageSize, usuarioParams.Search);
+        var usuariosXroles = await _usuario.GetAllAsync(usuarioParams.PageIndex, usuarioParams.PageSize, usuarioParams.Search);
         var lstUsuarioGetAllDto = _mapper.Map<List<UsuarioGetAllDto>>(usuariosXroles.registros);
         return new Pager<UsuarioGetAllDto>(lstUsuarioGetAllDto, usuariosXroles.totalRegistros, usuarioParams.PageIndex, usuarioParams.PageSize, usuarioParams.Search);
     }
@@ -152,12 +153,15 @@ public class UsuarioController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<UsuarioDto>> DeleteUsuario(int id)
     {
-        var usuario = await _unitOfWork.Usuarios.GetByIdAsync(id);
+        var usuario = await _usuario.GetByIdAsync(id);
         if(usuario == null) {
             return NotFound();
         }
-        _unitOfWork.Usuarios.Remove(usuario);
-        await _unitOfWork.SaveAsync();
+        var response = await _usuario.Remove(usuario);
+        if (response < 0)
+        {
+            return BadRequest();
+        }
         return NoContent();
     }
 }

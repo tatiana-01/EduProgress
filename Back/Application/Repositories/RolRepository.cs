@@ -18,24 +18,26 @@ public class RolRepository : GenericRepository<Rol>, IRol
     {
         var query = _context.Roles as IQueryable<Rol>;
 
-        if (!string.IsNullOrEmpty(search)) 
+        if (!string.IsNullOrEmpty(search))
         {
             query = query.Where(p => p.Nombre.ToLower().Contains(search.ToLower()));
         }
-         var totalRegistros=await query.CountAsync();
+        var totalRegistros = await query.CountAsync();
         var registros = await query
-                                .Include(p=>p.Usuarios)
-                                .Skip((pageIndex-1)*pageSize)
+                                .Include(p => p.Usuarios)
+                                .Skip((pageIndex - 1) * pageSize)
                                 .Take(pageSize)
                                 .ToListAsync();
-                                
-        return (totalRegistros,registros);
+
+        return (totalRegistros, registros);
     }
 
-     public override async Task<Rol> GetByIdAsync(int id)
+    public override async Task<Rol> GetByIdAsync(int id)
     {
         return await _context.Set<Rol>()
         .Include(p => p.Usuarios)
         .FirstOrDefaultAsync(p => p.Id == id);
     }
+
+
 }

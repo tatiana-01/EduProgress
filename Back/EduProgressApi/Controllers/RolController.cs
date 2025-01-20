@@ -9,12 +9,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace EduProgressApi.Controllers;
 public class RolController : BaseApiController
 {
-    private readonly IUnitOfWork _unitOfWork;
+    private readonly IRol _roles;
     private readonly IMapper _mapper;
-    public RolController(IUnitOfWork unitOfWork, IMapper mapper)
+    public RolController(IRol roles, IMapper mapper)
     {
         _mapper = mapper;
-        _unitOfWork = unitOfWork;
+        _roles = roles;
     }
 
    /*  [HttpGet]
@@ -38,7 +38,7 @@ public class RolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<Pager<RolGetAllDto>>> GetAll([FromQuery] Params rolParams)
     {
-        var roles = await _unitOfWork.Roles.GetAllAsync(rolParams.PageIndex, rolParams.PageSize, rolParams.Search);
+        var roles = await _roles.GetAllAsync(rolParams.PageIndex, rolParams.PageSize, rolParams.Search);
         var lstTipoPersonaDto = _mapper.Map<List<RolGetAllDto>>(roles.registros);
         return new Pager<RolGetAllDto>(lstTipoPersonaDto, roles.totalRegistros, rolParams.PageIndex, rolParams.PageSize, rolParams.Search);
     }
@@ -52,7 +52,7 @@ public class RolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<RolGetAllDto>> GetById(int id)
     {
-        var rol = await _unitOfWork.Roles.GetByIdAsync(id);
+        var rol = await _roles.GetByIdAsync(id);
         if (rol == null) {
             return NotFound();
         }
@@ -68,9 +68,8 @@ public class RolController : BaseApiController
     public async Task<ActionResult<RolDto>> Post(RolPostDto rolDto)
     {
         var rol = _mapper.Map<Rol>(rolDto);
-        _unitOfWork.Roles.Add(rol);
-        await _unitOfWork.SaveAsync();
-        if (rol == null) {
+        var response=await _roles.Add(rol);
+        if (response<0) {
             return BadRequest();
         }
         return _mapper.Map<RolDto>(rol);
@@ -88,9 +87,11 @@ public class RolController : BaseApiController
             return NotFound();
         }
         var rol = _mapper.Map<Rol>(rolDto);
-        rol.Id = id;
-        _unitOfWork.Roles.Update(rol);
-        await _unitOfWork.SaveAsync();
+        var response = await _roles.Update(rol);
+        if (response < 0)
+        {
+            return BadRequest();
+        }
         return _mapper.Map<RolDto>(rol);
     }
 
@@ -102,12 +103,15 @@ public class RolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<RolDto>> Delete(int id)
     {
-        var rol = await _unitOfWork.Roles.GetByIdAsync(id);
+        var rol = await _roles.GetByIdAsync(id);
         if (rol == null) {
             return NotFound();
         }
-        _unitOfWork.Roles.Remove(rol);
-        await _unitOfWork.SaveAsync();
+        var response = await _roles.Remove(rol);
+        if (response < 0)
+        {
+            return BadRequest();
+        }
         return NoContent();
     }
 }

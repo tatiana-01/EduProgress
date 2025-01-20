@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ApiSkeleton4.Dtos;
 using AutoMapper;
-using Dominio.Entities;
+using Domain.Entities;
+using EduProgressApi.Dtos;
 
 namespace ApiSkeleton4.Profiles;
 public class MappingProfiles : Profile

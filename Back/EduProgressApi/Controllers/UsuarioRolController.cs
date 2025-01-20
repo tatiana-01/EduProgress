@@ -5,17 +5,18 @@ using Domain.Entities;
 using Domain.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using static EduProgressApi.Helpers.Autorizacion;
 
 namespace EduProgressApi.Controllers;
 
 public class UsuarioRolController : BaseApiController
 {
-    private readonly IUnitOfWork _unitOfWork;
+    private readonly IUsuarioRol _usuarioRol;
     private readonly IMapper _mapper;
 
-    public UsuarioRolController(IUnitOfWork unitOfWork, IMapper mapper)
+    public UsuarioRolController(IUsuarioRol usuarioRol, IMapper mapper)
     {
-        _unitOfWork = unitOfWork;
+        _usuarioRol = usuarioRol;
         _mapper = mapper;
     }
 
@@ -29,7 +30,7 @@ public class UsuarioRolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<Pager<UsuarioRolDto>>> GetPaginaUsuarioRol([FromQuery] Params usuarioParams)
     {
-        var usuariosRoles = await _unitOfWork.UsuarioRoles.GetAllAsync(usuarioParams.PageIndex, usuarioParams.PageSize, usuarioParams.Search);
+        var usuariosRoles = await _usuarioRol.GetAllAsync(usuarioParams.PageIndex, usuarioParams.PageSize, usuarioParams.Search);
 
         var lstUsuRolDto = _mapper.Map<List<UsuarioRolDto>>(usuariosRoles.registros);
 
@@ -44,7 +45,7 @@ public class UsuarioRolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<UsuarioRolDto>> GetByIdUsuarioRol( int idUsuario, int idRol)
     {
-        var usuarioRol = await _unitOfWork.UsuarioRoles.GetByIdAsync(idUsuario, idRol);
+        var usuarioRol = await _usuarioRol.GetByIdAsync(idUsuario, idRol);
 
         if (usuarioRol == null) {
             return NotFound();
@@ -62,10 +63,9 @@ public class UsuarioRolController : BaseApiController
     public async Task<ActionResult<UsuarioRolDto>> Post(UsuarioRolDto usuarioRolDto)
     {
         var usuarioRol = _mapper.Map<UsuarioRol>(usuarioRolDto);
-        _unitOfWork.UsuarioRoles.Add(usuarioRol);
-        await _unitOfWork.SaveAsync();
-
-        if (usuarioRol == null) {
+        var response = await _usuarioRol.Add(usuarioRol);
+        if (response < 0)
+        {
             return BadRequest();
         }
 
@@ -87,8 +87,11 @@ public class UsuarioRolController : BaseApiController
         var usuarioRol = _mapper.Map<UsuarioRol>(usuarioRolDto);
         usuarioRol.UsuarioId = idUsuario;
         usuarioRol.RolId = idRol;
-        _unitOfWork.UsuarioRoles.Update(usuarioRol);
-        await _unitOfWork.SaveAsync();
+        var response= await _usuarioRol.Update(usuarioRol);
+        if (response < 0)
+        {
+            return BadRequest();
+        }
 
         return _mapper.Map<UsuarioRolDto>(usuarioRol);        
     }
@@ -101,15 +104,18 @@ public class UsuarioRolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<ActionResult<UsuarioRolDto>> Delete(int idUsuario, int idRol)
     {
-        var usuarioRol = await _unitOfWork.UsuarioRoles.GetByIdAsync (idUsuario, idRol);
+        var usuarioRol = await _usuarioRol.GetByIdAsync (idUsuario, idRol);
         
         if (usuarioRol == null) {
             return NotFound();
         }
 
-        _unitOfWork.UsuarioRoles.Remove(usuarioRol);
-        await _unitOfWork.SaveAsync();
+        var response = await _usuarioRol.Remove(usuarioRol);
+        if (response < 0)
+        {
+            return BadRequest();
+        }
 
-        return NoContent();
+        return Ok();
     }
 }
