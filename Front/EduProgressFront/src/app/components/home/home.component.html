@@ -1,5 +1,14 @@
-<app-side-bar />
+<app-side-bar [mainMenuOptions]="menuOptions"></app-side-bar>
 <div class="home-wrapper">
-    <p>home works!</p>
+  
+    <div class="card text-center banner">
+        <div class="card-body">
+          <h1 class="card-title">Bienvenido, {{ userName }}!</h1>
+        </div>
+    </div>
+    <div>
+        <app-info-cards *ngFor="let etiqueta of infoCardsData" [etiqueta]="etiqueta"></app-info-cards>
+    </div>
+    
 </div>
 

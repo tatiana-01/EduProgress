@@ -3,128 +3,216 @@
   "WorkspaceRootPath": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\seeding\\seedinginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\seeding\\seedinginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\eduprogresscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\eduprogresscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\rolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\rolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\usuariorolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\usuariorolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\irol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\igeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\iusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\personarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\rolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\ipersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\ipersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\irol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\irol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\controllers\\usuariorolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\application\\repositories\\usuariorolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBEB4EE-4388-4898-BAA7-DEFB65C58BC4}|Application\\Application.csproj|solutionrelative:application\\repositories\\usuariorolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\interfaces\\iusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iusuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\migrations\\20231006091726_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\migrations\\20231006091726_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\usuarioconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\usuarioconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\seguimientoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\seguimientoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\rolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\rolconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\personaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\personaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\notaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\notaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\cursopersonaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\cursopersonaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\cursonotapersonaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\cursonotapersonaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\cursoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\cursoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\comportamientopersonaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\comportamientopersonaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\comportamientoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\comportamientoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\data\\configuration\\categorianotasconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configuration\\categorianotasconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\cursopersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\cursopersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\comportamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\comportamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\comportamientopersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\comportamientopersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\cursonotapersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\cursonotapersona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\seguimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\seguimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\seeding\\seedinginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\seeding\\seedinginicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\categorianotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\categorianotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\infrastructure\\eduprogresscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CB92EFA-00E7-4C1C-8FEE-A0503D9EEA69}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\eduprogresscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\nota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\helpers\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\helpers\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\helpers\\params.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\helpers\\params.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\helpers\\pager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\helpers\\pager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\profiles\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\profiles\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\helpers\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\helpers\\jwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\dtos\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\dtos\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\eduprogressapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\eduprogressapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\helpers\\pager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\helpers\\pager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\helpers\\autorizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -151,14 +239,6 @@
       "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\dtos\\rolgetalldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\dtos\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\dtos\\roldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -177,10 +257,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E2EB4B51-BD13-4571-9621-0BE8511512FA}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|c:\\users\\alejandratatiana.par\\documents\\techtitans\\eduprogress\\back\\eduprogressapi\\eduprogressapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E7C21964-5B17-4B1C-A674-374016817276}|EduProgressApi\\EduProgressApi.csproj|solutionrelative:eduprogressapi\\eduprogressapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -190,7 +266,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,212 +294,192 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RolController.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\RolController.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Controllers\\RolController.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\RolController.cs",
-              "RelativeToolTip": "EduProgressApi\\Controllers\\RolController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAA7wAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IGeneric.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IGeneric.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IGeneric.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IGeneric.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IGeneric.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIAwwA4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:06:21.888Z"
+              "WhenOpened": "2024-12-23T22:11:34.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T20:58:09.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EduProgressApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\appsettings.json",
+              "RelativeToolTip": "EduProgressApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T15:58:44.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "EduProgressApi\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAlwCgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwCkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:08:11.103Z"
+              "WhenOpened": "2024-12-23T21:08:11.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioRolController.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\UsuarioRolController.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Controllers\\UsuarioRolController.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\UsuarioRolController.cs",
-              "RelativeToolTip": "EduProgressApi\\Controllers\\UsuarioRolController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:08:52.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Services\\UserService.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Services\\UserService.cs",
               "RelativeToolTip": "EduProgressApi\\Services\\UserService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAIAwwCAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwIkAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:16:08.492Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Program.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Program.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Program.cs",
-              "RelativeToolTip": "EduProgressApi\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T20:58:38.647Z",
+              "WhenOpened": "2024-12-23T21:16:08.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseApiController.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\BaseApiController.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Controllers\\BaseApiController.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\BaseApiController.cs",
-              "RelativeToolTip": "EduProgressApi\\Controllers\\BaseApiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RolController.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\RolController.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Controllers\\RolController.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\RolController.cs",
+              "RelativeToolTip": "EduProgressApi\\Controllers\\RolController.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwHAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:06:01.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SeedingInicial.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Seeding\\SeedingInicial.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Seeding\\SeedingInicial.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Seeding\\SeedingInicial.cs",
-              "RelativeToolTip": "Infrastructure\\Seeding\\SeedingInicial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:04:50.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EduProgressContext.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\EduProgressContext.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EduProgressContext.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\EduProgressContext.cs",
-              "RelativeToolTip": "Infrastructure\\EduProgressContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:00:10.241Z"
+              "WhenOpened": "2024-12-23T21:06:21.888Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RolConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Domain\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:03:19.083Z"
+              "WhenOpened": "2024-12-23T22:11:18.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "ApplicationServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Extensions\\ApplicationServiceExtensions.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Extensions\\ApplicationServiceExtensions.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Extensions\\ApplicationServiceExtensions.cs",
               "RelativeToolTip": "EduProgressApi\\Extensions\\ApplicationServiceExtensions.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAlwEUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T21:11:52.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Services\\IUserService.cs",
-              "RelativeToolTip": "EduProgressApi\\Services\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Program.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Program.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Program.cs",
+              "RelativeToolTip": "EduProgressApi\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:16:50.552Z"
+              "WhenOpened": "2024-12-23T20:58:38.647Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Application\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\UnitOfWork\\UnitOfWork.cs",
-              "RelativeToolTip": "Application\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "PersonaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\PersonaRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\PersonaRepository.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\PersonaRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\PersonaRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:09:20.512Z"
+              "WhenOpened": "2025-01-20T01:20:25.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\RolRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\RolRepository.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\RolRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\RolRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:08:26.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "UsuarioRolRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\UsuarioRolRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Repositories\\UsuarioRolRepository.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\UsuarioRolRepository.cs",
-              "RelativeToolTip": "Application\\Repositories\\UsuarioRolRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Title": "IPersona.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IPersona.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IPersona.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IPersona.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IPersona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:09:05.865Z"
+              "WhenOpened": "2025-01-20T01:19:28.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "Application\\Repositories\\UsuarioRepository.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\UsuarioRepository.cs",
               "RelativeToolTip": "Application\\Repositories\\UsuarioRepository.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T22:08:50.089Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "RolRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\RolRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Repositories\\RolRepository.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\RolRepository.cs",
-              "RelativeToolTip": "Application\\Repositories\\RolRepository.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCYAAAAuAAAAAAAAAA==",
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "EduProgressApi\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:08:26.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Application\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T20:58:09.406Z"
+              "WhenOpened": "2024-12-23T21:10:59.679Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Title": "IUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUsuario.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUsuario.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUsuario.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:11:55.048Z"
+              "WhenOpened": "2024-12-23T22:12:03.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "IRol.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IRol.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IRol.cs",
@@ -435,139 +491,439 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioRolController.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\UsuarioRolController.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Controllers\\UsuarioRolController.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\UsuarioRolController.cs",
+              "RelativeToolTip": "EduProgressApi\\Controllers\\UsuarioRolController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAowHMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:08:52.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsuarioRolRepository.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\UsuarioRolRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\UsuarioRolRepository.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Repositories\\UsuarioRolRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\UsuarioRolRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:09:05.865Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "IGeneric.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IGeneric.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IGeneric.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IGeneric.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IGeneric.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:11:34.382Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUsuario.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUsuario.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUsuario.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:12:03.876Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "IUsuarioRol.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUsuarioRol.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IUsuarioRol.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Interfaces\\IUsuarioRol.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IUsuarioRol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T22:12:12.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UsuarioRol.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\UsuarioRol.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\UsuarioRol.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\UsuarioRol.cs",
-              "RelativeToolTip": "Domain\\Entities\\UsuarioRol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:11:26.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Usuario.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Usuario.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Usuario.cs",
-              "RelativeToolTip": "Domain\\Entities\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:11:18.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Rol.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Rol.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Rol.cs",
-              "RelativeToolTip": "Domain\\Entities\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:11:13.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 19,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\BaseEntity.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\BaseEntity.cs",
               "RelativeToolTip": "Domain\\Entities\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T22:09:45.282Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "EduProgressApi\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:06:01.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuarioConfiguracion.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\UsuarioConfiguracion.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\UsuarioConfiguracion.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\UsuarioConfiguracion.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\UsuarioConfiguracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T15:57:58.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SeguimientoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\SeguimientoConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\SeguimientoConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\SeguimientoConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\SeguimientoConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T22:47:18.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RolConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\RolConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:03:19.083Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "PersonaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\PersonaConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\PersonaConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\PersonaConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\PersonaConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T22:41:58.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NotaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\NotaConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\NotaConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\NotaConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\NotaConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T21:20:50.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CursoPersonaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CursoPersonaConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\CursoPersonaConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CursoPersonaConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\CursoPersonaConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T21:16:33.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CursoNotaPersonaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CursoNotaPersonaConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\CursoNotaPersonaConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CursoNotaPersonaConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\CursoNotaPersonaConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T21:11:29.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CursoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CursoConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\CursoConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CursoConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\CursoConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:53:06.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ComportamientoPersonaConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\ComportamientoPersonaConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\ComportamientoPersonaConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\ComportamientoPersonaConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\ComportamientoPersonaConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:39:11.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ComportamientoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\ComportamientoConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\ComportamientoConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\ComportamientoConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\ComportamientoConfiguration.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:47:35.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoriaNotasConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CategoriaNotasConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configuration\\CategoriaNotasConfiguration.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Configuration\\CategoriaNotasConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configuration\\CategoriaNotasConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:39:59.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CursoPersona.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\CursoPersona.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\CursoPersona.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\CursoPersona.cs",
+              "RelativeToolTip": "Domain\\Entities\\CursoPersona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:29:38.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Comportamiento.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Comportamiento.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Comportamiento.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Comportamiento.cs",
+              "RelativeToolTip": "Domain\\Entities\\Comportamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:07:26.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ComportamientoPersona.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\ComportamientoPersona.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\ComportamientoPersona.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\ComportamientoPersona.cs",
+              "RelativeToolTip": "Domain\\Entities\\ComportamientoPersona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T23:22:50.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CursoNotaPersona.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\CursoNotaPersona.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\CursoNotaPersona.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\CursoNotaPersona.cs",
+              "RelativeToolTip": "Domain\\Entities\\CursoNotaPersona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:08:50.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Curso.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Curso.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Curso.cs",
+              "RelativeToolTip": "Domain\\Entities\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:56:11.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\UsuarioRol.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\UsuarioRol.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\UsuarioRol.cs",
+              "RelativeToolTip": "Domain\\Entities\\UsuarioRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:11:26.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Seguimiento.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Seguimiento.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Seguimiento.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Seguimiento.cs",
+              "RelativeToolTip": "Domain\\Entities\\Seguimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:08:08.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Persona.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Persona.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Persona.cs",
+              "RelativeToolTip": "Domain\\Entities\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:53:23.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SeedingInicial.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Seeding\\SeedingInicial.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Seeding\\SeedingInicial.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Seeding\\SeedingInicial.cs",
+              "RelativeToolTip": "Infrastructure\\Seeding\\SeedingInicial.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:04:50.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoriaNotas.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\CategoriaNotas.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\CategoriaNotas.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\CategoriaNotas.cs",
+              "RelativeToolTip": "Domain\\Entities\\CategoriaNotas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:06:19.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EduProgressContext.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\EduProgressContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EduProgressContext.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\EduProgressContext.cs",
+              "RelativeToolTip": "Infrastructure\\EduProgressContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:00:10.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\RefreshToken.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\RefreshToken.cs",
               "RelativeToolTip": "Domain\\Entities\\RefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T22:09:44.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T20:51:55.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20231006091726_InitialCreate.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Migrations\\20231006091726_InitialCreate.Designer.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Migrations\\20231006091726_InitialCreate.Designer.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Infrastructure\\Data\\Migrations\\20231006091726_InitialCreate.Designer.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Migrations\\20231006091726_InitialCreate.Designer.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAswLUAAABAAAAAAAAAAA==",
+              "DocumentIndex": 44,
+              "Title": "Nota.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Nota.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Nota.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Nota.cs",
+              "RelativeToolTip": "Domain\\Entities\\Nota.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:13:33.741Z"
+              "WhenOpened": "2025-01-19T20:03:34.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Rol.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Rol.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Entities\\Rol.cs",
+              "RelativeToolTip": "Domain\\Entities\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T22:11:13.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "JWT.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\JWT.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Helpers\\JWT.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\JWT.cs",
+              "RelativeToolTip": "EduProgressApi\\Helpers\\JWT.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:15:21.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "Params.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\Params.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Helpers\\Params.cs",
               "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\Params.cs",
               "RelativeToolTip": "EduProgressApi\\Helpers\\Params.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T21:15:30.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 48,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Profiles\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Profiles\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Profiles\\MappingProfiles.cs",
+              "RelativeToolTip": "EduProgressApi\\Profiles\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T16:35:26.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EduProgressApi.http",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\EduProgressApi.http",
+              "RelativeDocumentMoniker": "EduProgressApi\\EduProgressApi.http",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\EduProgressApi.http",
+              "RelativeToolTip": "EduProgressApi\\EduProgressApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-19T16:10:43.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "RolDto.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RolDto.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\RolDto.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RolDto.cs",
+              "RelativeToolTip": "EduProgressApi\\Dtos\\RolDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:11:06.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "EduProgressApi\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Services\\IUserService.cs",
+              "RelativeToolTip": "EduProgressApi\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T21:16:50.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "Pager.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\Pager.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Helpers\\Pager.cs",
@@ -579,19 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "JWT.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\JWT.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Helpers\\JWT.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\JWT.cs",
-              "RelativeToolTip": "EduProgressApi\\Helpers\\JWT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:15:21.866Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 53,
               "Title": "Autorizacion.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Helpers\\Autorizacion.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Helpers\\Autorizacion.cs",
@@ -603,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 54,
               "Title": "UsuarioRolDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\UsuarioRolDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\UsuarioRolDto.cs",
@@ -615,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 55,
               "Title": "UsuarioGetAllDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\UsuarioGetAllDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\UsuarioGetAllDto.cs",
@@ -627,7 +971,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 56,
               "Title": "UsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\UsuarioDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\UsuarioDto.cs",
@@ -639,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 57,
               "Title": "RolPostDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RolPostDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\RolPostDto.cs",
@@ -651,7 +995,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 58,
               "Title": "RolGetAllDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RolGetAllDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\RolGetAllDto.cs",
@@ -663,31 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "RolDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RolDto.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\RolDto.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RolDto.cs",
-              "RelativeToolTip": "EduProgressApi\\Dtos\\RolDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:11:06.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\RegisterDto.cs",
-              "RelativeToolTip": "EduProgressApi\\Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T21:10:59.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 59,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\LoginDto.cs",
@@ -699,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 60,
               "Title": "DatosUsuarioDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\DatosUsuarioDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\DatosUsuarioDto.cs",
@@ -711,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "AddRolDto.cs",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\Dtos\\AddRolDto.cs",
               "RelativeDocumentMoniker": "EduProgressApi\\Dtos\\AddRolDto.cs",
@@ -723,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 63,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -735,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 62,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -744,18 +1064,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-12-23T20:51:24.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "EduProgressApi.csproj",
-              "DocumentMoniker": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\EduProgressApi.csproj",
-              "RelativeDocumentMoniker": "EduProgressApi\\EduProgressApi.csproj",
-              "ToolTip": "C:\\Users\\alejandratatiana.par\\Documents\\TechTitans\\EduProgress\\Back\\EduProgressApi\\EduProgressApi.csproj",
-              "RelativeToolTip": "EduProgressApi\\EduProgressApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T20:51:00.037Z"
             }
           ]
         }

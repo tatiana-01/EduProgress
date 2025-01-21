@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, Input, OnInit } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { NgFor, NgClass } from '@angular/common';
 
@@ -11,67 +11,18 @@ import { NgFor, NgClass } from '@angular/common';
 })
 export class SideBarComponent implements OnInit {
 
-  mainMenu: {
-    defaultOptions: Array<any>, accessLink: Array<any>
-  } = { defaultOptions: [], accessLink: [] }
+   
+@Input() mainMenuOptions!: any[];
 
-  customOptions: Array<any> = []
-
-  constructor(private router: Router) { }
 
   ngOnInit(): void {
-    this.mainMenu.defaultOptions = [
-      {
-        name: 'Home',
-        icon: 'uil uil-estate',
-        router: ['/', 'auth']
-      },
-      {
-        name: 'Grupos',
-        icon: 'uil uil-chart',
-        router: ['/', 'favorites'],
-        query: { hola: 'mundo' }
-      }
-    ]
+    console.log(this.mainMenuOptions);
+    debugger;
+    
 
-    this.mainMenu.accessLink = [
-      {
-        name: 'Crear',
-        icon: 'uil-plus-square'
-      }
-    ]
-
-    this.customOptions = [
-      /* {
-        name: 'Mi lista º1',
-        router: ['/']
-      },
-      {
-        name: 'Mi lista º2',
-        router: ['/']
-      },
-      {
-        name: 'Mi lista º3',
-        router: ['/']
-      },
-      {
-        name: 'Mi lista º4',
-        router: ['/']
-      } */
-    ]
 
   }
 
-  goTo($event: any): void {
-    this.router.navigate(['/', 'favorites'], {
-      queryParams: {
-        key1: 'value1',
-        key2: 'value2',
-        key3: 'value3'
-      }
-    })
-    console.log($event)
-  }
 
 
   TestClick(test: string): void {

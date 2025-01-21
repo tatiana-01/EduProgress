@@ -1,0 +1,17 @@
+
+<div class="center-container">
+    <h1>{{etiqueta}}</h1>
+</div>
+<div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let card of cards">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h5 class="card-title">{{ card.title }}</h5>
+            <p class="card-text">{{ card.content }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
