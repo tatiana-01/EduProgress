@@ -1,46 +1,42 @@
-using EduProgressApi.Helpers;
+﻿
+using Application.Dtos;
 using AutoMapper;
 using Domain.Entities;
 using Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Application.Dtos;
 
 namespace EduProgressApi.Controllers;
-public class RolController : BaseApiController
+public class PersonaController : BaseApiController
 {
-    private readonly IRol _roles;
+    private readonly IPersona _personas;
     private readonly IMapper _mapper;
-    public RolController(IRol roles, IMapper mapper)
+    public PersonaController(IPersona personas, IMapper mapper)
     {
         _mapper = mapper;
-        _roles = roles;
+        _personas = personas;
     }
 
-   /*  [HttpGet]
-    [Authorize]
-    [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status204NoContent)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<List<RolDto>>> Get()
-    {
-        var roles = await _unitOfWork.Roles.GetAllAsync();
-        return _mapper.Map<List<RolDto>>(roles);
-    } */
 
     [HttpGet]
-    [Authorize]
-
+    [Authorize(Roles = "Administrador,Profesor")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<Pager<RolGetAllDto>>> GetAll([FromQuery] Params rolParams)
+    public async Task<ActionResult<List<CursoDto>>> GetPersonasByRolAndUser(string curso)
     {
-        var roles = await _roles.GetAllAsync(rolParams.PageIndex, rolParams.PageSize, rolParams.Search);
-        var lstTipoPersonaDto = _mapper.Map<List<RolGetAllDto>>(roles.registros);
-        return new Pager<RolGetAllDto>(lstTipoPersonaDto, roles.totalRegistros, rolParams.PageIndex, rolParams.PageSize, rolParams.Search);
+        var personas = await _personas.GetStudentsByCourse(curso);
+        if (personas == null)
+        {
+            return BadRequest();
+        }
+        if (personas.Count() <= 0)
+        {
+            return NotFound();
+        }
+        
+        return Ok(personas);
     }
 
     [HttpGet("{id}")]
@@ -50,29 +46,31 @@ public class RolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<RolGetAllDto>> GetById(int id)
+    public async Task<ActionResult<Persona>> GetById(int id)
     {
-        var rol = await _roles.GetByIdAsync(id);
-        if (rol == null) {
+        var rol = await _personas.GetByIdAsync(id);
+        if (rol == null)
+        {
             return NotFound();
         }
-        return _mapper.Map<RolGetAllDto>(rol);
+        return _mapper.Map<Persona>(rol);
     }
 
     [HttpPost]
-    [Authorize(Roles = "Administrador")]
+    //[Authorize(Roles = "Administrador")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<RolDto>> Post(RolPostDto rolDto)
+    public async Task<ActionResult<Persona>> Post(Persona cursoDto)
     {
-        var rol = _mapper.Map<Rol>(rolDto);
-        var response=await _roles.Add(rol);
-        if (response<0) {
+        var curso = _mapper.Map<Persona>(cursoDto);
+        var response = await _personas.Add(curso);
+        if (response < 0)
+        {
             return BadRequest();
         }
-        return _mapper.Map<RolDto>(rol);
+        return _mapper.Map<Persona>(curso);
     }
 
     [HttpPut("{id}")]
@@ -81,18 +79,19 @@ public class RolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<RolDto>> Put(int id, [FromBody] RolDto rolDto)
+    public async Task<ActionResult<Persona>> Put(int id, [FromBody] Persona rolDto)
     {
-        if (rolDto == null) {
+        if (rolDto == null)
+        {
             return NotFound();
         }
-        var rol = _mapper.Map<Rol>(rolDto);
-        var response = await _roles.Update(rol);
+        var rol = _mapper.Map<Persona>(rolDto);
+        var response = await _personas.Update(rol);
         if (response < 0)
         {
             return BadRequest();
         }
-        return _mapper.Map<RolDto>(rol);
+        return _mapper.Map<Persona>(rol);
     }
 
     [HttpDelete("{id}")]
@@ -101,13 +100,14 @@ public class RolController : BaseApiController
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<RolDto>> Delete(int id)
+    public async Task<ActionResult<Persona>> Delete(int id)
     {
-        var rol = await _roles.GetByIdAsync(id);
-        if (rol == null) {
+        var rol = await _personas.GetByIdAsync(id);
+        if (rol == null)
+        {
             return NotFound();
         }
-        var response = await _roles.Remove(rol);
+        var response = await _personas.Remove(rol);
         if (response < 0)
         {
             return BadRequest();

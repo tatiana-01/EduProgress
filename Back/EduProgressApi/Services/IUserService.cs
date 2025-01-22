@@ -1,5 +1,5 @@
+using Application.Dtos;
 using Domain.Entities;
-using EduProgressApi.Dtos;
 
 namespace EduProgressApi.Services;
 public interface IUserService

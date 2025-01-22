@@ -1,4 +1,4 @@
-namespace EduProgressApi.Dtos;
+namespace Application.Dtos;
 
 public class UsuarioDto
 {

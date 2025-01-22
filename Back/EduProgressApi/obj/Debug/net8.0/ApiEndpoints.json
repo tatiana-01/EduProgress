@@ -1,5 +1,510 @@
 [
   {
+    "ContainingType": "EduProgressApi.Controllers.CursoController",
+    "Method": "GetCursosByRolAndUser",
+    "RelativePath": "api/Curso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rol",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Application.Dtos.CursoGetByUserRolDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.CursoController",
+    "Method": "Post",
+    "RelativePath": "api/Curso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoDto",
+        "Type": "Application.Dtos.CursoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Application.Dtos.CursoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.CursoController",
+    "Method": "GetById",
+    "RelativePath": "api/Curso/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Curso",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.CursoController",
+    "Method": "Put",
+    "RelativePath": "api/Curso/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rolDto",
+        "Type": "Domain.Entities.Curso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Curso",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.CursoController",
+    "Method": "Delete",
+    "RelativePath": "api/Curso/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Curso",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.PersonaController",
+    "Method": "GetPersonasByRolAndUser",
+    "RelativePath": "api/Persona",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "curso",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Application.Dtos.CursoDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.PersonaController",
+    "Method": "Post",
+    "RelativePath": "api/Persona",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoDto",
+        "Type": "Domain.Entities.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Persona",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.PersonaController",
+    "Method": "GetById",
+    "RelativePath": "api/Persona/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Persona",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.PersonaController",
+    "Method": "Put",
+    "RelativePath": "api/Persona/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rolDto",
+        "Type": "Domain.Entities.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Persona",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "EduProgressApi.Controllers.PersonaController",
+    "Method": "Delete",
+    "RelativePath": "api/Persona/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Domain.Entities.Persona",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
     "ContainingType": "EduProgressApi.Controllers.RolController",
     "Method": "GetAll",
     "RelativePath": "api/Rol",
@@ -25,7 +530,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Helpers.Pager\u00601[[EduProgressApi.Dtos.RolGetAllDto, EduProgressApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "EduProgressApi.Helpers.Pager\u00601[[Application.Dtos.RolGetAllDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -68,13 +573,13 @@
     "Parameters": [
       {
         "Name": "rolDto",
-        "Type": "EduProgressApi.Dtos.RolPostDto",
+        "Type": "Application.Dtos.RolPostDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.RolDto",
+        "Type": "Application.Dtos.RolDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -123,7 +628,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.RolGetAllDto",
+        "Type": "Application.Dtos.RolGetAllDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -171,13 +676,13 @@
       },
       {
         "Name": "rolDto",
-        "Type": "EduProgressApi.Dtos.RolDto",
+        "Type": "Application.Dtos.RolDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.RolDto",
+        "Type": "Application.Dtos.RolDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -226,7 +731,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.RolDto",
+        "Type": "Application.Dtos.RolDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -285,7 +790,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Helpers.Pager\u00601[[EduProgressApi.Dtos.UsuarioGetAllDto, EduProgressApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "EduProgressApi.Helpers.Pager\u00601[[Application.Dtos.UsuarioGetAllDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -334,7 +839,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioGetAllDto",
+        "Type": "Application.Dtos.UsuarioGetAllDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -382,13 +887,13 @@
       },
       {
         "Name": "usuarioDto",
-        "Type": "EduProgressApi.Dtos.UsuarioDto",
+        "Type": "Application.Dtos.UsuarioDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioDto",
+        "Type": "Application.Dtos.UsuarioDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -437,7 +942,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioDto",
+        "Type": "Application.Dtos.UsuarioDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -480,7 +985,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "EduProgressApi.Dtos.AddRolDto",
+        "Type": "Application.Dtos.AddRolDto",
         "IsRequired": true
       }
     ],
@@ -564,7 +1069,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "EduProgressApi.Dtos.RegisterDto",
+        "Type": "Application.Dtos.RegisterDto",
         "IsRequired": true
       }
     ],
@@ -609,7 +1114,7 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "EduProgressApi.Dtos.LoginDto",
+        "Type": "Application.Dtos.LoginDto",
         "IsRequired": true
       }
     ],
@@ -660,7 +1165,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioGetAllDto",
+        "Type": "Application.Dtos.UsuarioGetAllDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -719,7 +1224,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Helpers.Pager\u00601[[EduProgressApi.Dtos.UsuarioRolDto, EduProgressApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "EduProgressApi.Helpers.Pager\u00601[[Application.Dtos.UsuarioRolDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -762,13 +1267,13 @@
     "Parameters": [
       {
         "Name": "usuarioRolDto",
-        "Type": "EduProgressApi.Dtos.UsuarioRolDto",
+        "Type": "Application.Dtos.UsuarioRolDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioRolDto",
+        "Type": "Application.Dtos.UsuarioRolDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -822,7 +1327,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioRolDto",
+        "Type": "Application.Dtos.UsuarioRolDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -875,13 +1380,13 @@
       },
       {
         "Name": "usuarioRolDto",
-        "Type": "EduProgressApi.Dtos.UsuarioRolDto",
+        "Type": "Application.Dtos.UsuarioRolDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioRolDto",
+        "Type": "Application.Dtos.UsuarioRolDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -935,7 +1440,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "EduProgressApi.Dtos.UsuarioRolDto",
+        "Type": "Application.Dtos.UsuarioRolDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace EduProgressApi.Dtos;
+namespace Application.Dtos;
 public class LoginDto
 {
     [Required]

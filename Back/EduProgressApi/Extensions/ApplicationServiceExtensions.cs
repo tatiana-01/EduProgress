@@ -1,6 +1,6 @@
 using Application.Repositories;
 using Domain.Entities;
-using Domain.Interfaces;
+using Application.Interfaces;
 using EduProgressApi.Helpers;
 using EduProgressApi.Services;
 using Infrastructure;
@@ -72,6 +72,7 @@ public static class ApplicationServiceExtension
         services.AddScoped<IRol, RolRepository>();
         services.AddScoped<IUsuarioRol, UsuarioRolRepository>();
         services.AddScoped<IPersona, PersonaRepository>();
+        services.AddScoped<ICurso, CursoRepository>();
     }
     public static void AddJwt(this IServiceCollection services, IConfiguration configuration)
     {

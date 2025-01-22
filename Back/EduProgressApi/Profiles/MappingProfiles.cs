@@ -1,6 +1,7 @@
+using Application.Dtos;
 using AutoMapper;
 using Domain.Entities;
-using EduProgressApi.Dtos;
+
 
 namespace ApiSkeleton4.Profiles;
 public class MappingProfiles : Profile
@@ -15,5 +16,6 @@ public class MappingProfiles : Profile
         CreateMap<Usuario, UsuarioGetAllDto>().ReverseMap();
 
         CreateMap<UsuarioRol, UsuarioRolDto>().ReverseMap();
+        CreateMap<Curso, CursoDto>().ReverseMap();
     }
 }

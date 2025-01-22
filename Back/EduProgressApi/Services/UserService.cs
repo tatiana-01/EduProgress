@@ -1,6 +1,6 @@
+using Application.Dtos;
 using Domain.Entities;
-using Domain.Interfaces;
-using EduProgressApi.Dtos;
+using Application.Interfaces;
 using EduProgressApi.Helpers;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;

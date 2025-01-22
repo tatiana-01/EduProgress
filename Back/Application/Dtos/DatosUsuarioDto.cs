@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace EduProgressApi.Dtos;
+namespace Application.Dtos;
 public class DatosUsuarioDto
 {
     public string Mensaje { get; set; }

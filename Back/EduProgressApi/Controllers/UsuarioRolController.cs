@@ -1,11 +1,12 @@
-using EduProgressApi.Dtos;
+
 using EduProgressApi.Helpers;
 using AutoMapper;
 using Domain.Entities;
-using Domain.Interfaces;
+using Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using static EduProgressApi.Helpers.Autorizacion;
+using Application.Dtos;
 
 namespace EduProgressApi.Controllers;
 

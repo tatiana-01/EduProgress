@@ -1,7 +1,7 @@
 using Domain.Entities;
 using System.Linq.Expressions;
 
-namespace Domain.Interfaces;
+namespace Application.Interfaces;
 public interface IUsuarioRol
 {
     Task<UsuarioRol> GetByIdAsync(int idUsuario, int idRol);

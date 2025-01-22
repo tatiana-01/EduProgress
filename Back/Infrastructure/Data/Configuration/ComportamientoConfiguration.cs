@@ -19,7 +19,11 @@ public class ComportamientoConfiguration : IEntityTypeConfiguration<Comportamien
         .HasMaxLength(255)
         .IsRequired();
 
-   
+        builder.Property(p => p.Tema)
+        .HasMaxLength(255)
+        .IsRequired();
+
+
 
     }
 }
