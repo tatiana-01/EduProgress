@@ -23,6 +23,10 @@ export class AuthComponent {
     });
   }
 
+  ngOnInit(): void {
+    localStorage.clear();
+  }
+
   sendLogin(): void {
     const { username, password } = this.loginForm.value
     this.Authservice.sendCredentials(username, password)

@@ -16,10 +16,11 @@ export class HomeComponent {
   rol: string | undefined ;
   infoCardsData!: string[]
   menuOptions!: any[]
+  isHome:boolean=false;
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    
+    this.isHome=true;
     this.route.queryParams.subscribe(params => {
       this.userName = params['userName'];
     });
@@ -29,7 +30,6 @@ export class HomeComponent {
 
   infoCardsAndMenuLoad(){
     if(this.rol=="Profesor"){
-      this.infoCardsData=["Grupos","Estudiantes"]
       this.menuOptions=[{
         name: 'Gestionar grupos',
         icon: 'uil uil-chart',
@@ -42,7 +42,6 @@ export class HomeComponent {
         query: { userName: this.userName }
       }]
     }else if(this.rol=="Estudiante"){
-      this.infoCardsData=["Grupos"]
       this.menuOptions=[{
         name: 'Comentarios',
         icon: 'uil uil-chart',
@@ -50,6 +49,7 @@ export class HomeComponent {
         query: { userName: this.userName }
       }]
     }
+    this.infoCardsData=["Grupos"]
     console.log(this.infoCardsData)
   }
 }
