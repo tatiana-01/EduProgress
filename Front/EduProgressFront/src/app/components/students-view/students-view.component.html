@@ -1,59 +1,79 @@
+
+<div class="error " *ngIf="errorCom">
+  <div class="alert alert-danger " role="alert">
+      Ocurrio un error.
+    </div>
+</div>
+
+<div class="error " *ngIf="sucessfullCom">
+  <div class="alert alert-success " role="alert">
+      Se guardo exitosamente el comentario.
+    </div>
+</div>
+
 <div class=" noteTable p-5">
     <h2 class="text-center">{{curso}}</h2>
-    <table class="table table-bordered table-primary">
-            <tr>
-                <th>#</th>
-                <td>1</td>
+      <div *ngIf="notas!.length>0 ">
+      <table class="table table-bordered table-primary p-5">
+        <tr *ngFor="let card of notas" class="p-5">
+            <th >{{card.categoria}}</th>
+            <td > {{card.nota}}</td>
+        </tr>
+      </table>
+      </div>
 
-            </tr>
+      <div class="row" *ngIf="notas==undefined || notas!.length<=0">
 
-            <tr>
-                <th>#</th>
-                <td>1</td>
+        <h2>Aun no hay notas</h2>
+ 
+     </div>
 
-            </tr>
-
-    </table>
+        
 </div>
 
 <div class="comDiv">
-    <h2>Comentarios</h2>
-    <div class="accordion " id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
+  <h2>Comentarios</h2>
+  <div class="row" *ngIf="coms!.length > 0">
+      <div class="accordion" id="accordionExample" *ngFor="let card of coms">
+          <div class="accordion-item">
+              <h2 class="accordion-header">
+                  <button class="accordion-button d-flex justify-content-between w-100" type="button" 
+                          data-bs-toggle="collapse" 
+                          [attr.data-bs-target]="'#collapse' + card.id" 
+                          aria-expanded="false" 
+                          [attr.aria-controls]="'collapse' + card.id">
+                          <div>{{card.tema}} - {{card.profesora}}</div>
+                          <div >Nota {{card.nota}}</div> 
+                  </button>
+              </h2>
+              <div [id]="'collapse' + card.id" class="accordion-collapse collapse ">
+                  <div class="accordion-body">
+                      <div class="media mb-4" >
+                        <div class="media-body">
+                            <h5 class="mt-0">{{card.profesora}}</h5>
+                            {{card.categoria}}
+                        </div>
+                        <hr class="divider">
+                      </div>
+                      <div class="media mb-4" *ngFor="let segui of card.seguimientos">
+                          <div class="media-body">
+                              <h5 class="mt-0">{{segui.nombre}}</h5>
+                              {{segui.descripcion}}
+                          </div>
+                          <hr class="divider">
+                      </div>
+                      
+                      <form [formGroup]="ComForm" >
+                        <div class="form-group"  >
+                            <label for="comentario">Ingresa un comentario</label>
+                            <textarea class="form-control mt-2" id="comentario" rows="3" formControlName="comentario" placeholder="Escribe tu comentario" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3" (click)="GuardarComen(card.id)">Enviar Comentario</button>
+                    </form>
+                  </div>
+              </div>
+              
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
       </div>
+  </div>
 </div>

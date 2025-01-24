@@ -18,13 +18,13 @@ public class PersonaController : BaseApiController
     }
 
 
-    [HttpGet]
+    [HttpGet("StudentsByCourse")]
     [Authorize(Roles = "Administrador,Profesor")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<List<CursoDto>>> GetPersonasByRolAndUser(string curso)
+    public async Task<ActionResult<List<CursoDto>>> GetStudentsByCourse(string curso)
     {
         var personas = await _personas.GetStudentsByCourse(curso);
         if (personas == null)

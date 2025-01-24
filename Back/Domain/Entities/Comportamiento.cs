@@ -6,5 +6,6 @@ public class Comportamiento : BaseEntity
     public int CursoPersonaId { get; set; }
     public string Tema { get; set; }
     public ICollection<ComportamientoPersona> ComportamientoPersonas { get; set; }
+    public ICollection<Seguimiento> Seguimientos { get; set; }
 
 }

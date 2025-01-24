@@ -7,36 +7,36 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EduProgressApi.Controllers;
-public class CursoController : BaseApiController
+public class NotasController : BaseApiController
 {
-    private readonly ICurso _cursos;
+    private readonly INotas _notas;
     private readonly IMapper _mapper;
-    public CursoController(ICurso cursos, IMapper mapper)
+    public NotasController(INotas notas, IMapper mapper)
     {
         _mapper = mapper;
-        _cursos = cursos;
+        _notas = notas;
     }
 
 
-    [HttpGet("CursosByRolAndUser")]
-    [Authorize]
+    [HttpGet("NotassBycouseAndUser")]
+    //[Authorize]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<List<CursoGetByUserRolDto>>> GetCursosByRolAndUser(string user, string rol)
+    public async Task<ActionResult<List<NotasStuCursoDto>>> GetNotassBycouseAndUser(string user, string curso)
     {
-        var cursos = await _cursos.GetCursosByRolAndUserAsync(user,rol);
-        if (cursos == null)
+        var notas = await _notas.GetNotasByCursoAndUserAsync(user, curso);
+        if (notas == null)
         {
             return BadRequest();
         }
-        if (cursos.Count() <= 0)
+        if (notas.Count() <= 0)
         {
             return NotFound();
         }
-        
-        return Ok(cursos);
+
+        return Ok(notas);
     }
 
     [HttpGet("{id}")]
@@ -46,14 +46,14 @@ public class CursoController : BaseApiController
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<Curso>> GetById(int id)
+    public async Task<ActionResult<Nota>> GetById(int id)
     {
-        var rol = await _cursos.GetByIdAsync(id);
+        var rol = await _notas.GetByIdAsync(id);
         if (rol == null)
         {
             return NotFound();
         }
-        return _mapper.Map<Curso>(rol);
+        return _mapper.Map<Nota>(rol);
     }
 
     [HttpPost]
@@ -62,15 +62,15 @@ public class CursoController : BaseApiController
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<CursoDto>> Post(CursoDto cursoDto)
+    public async Task<ActionResult<Nota>> Post(Nota cursoDto)
     {
-        var curso = _mapper.Map<Curso>(cursoDto);
-        var response = await _cursos.Add(curso);
+        var curso = _mapper.Map<Nota>(cursoDto);
+        var response = await _notas.Add(curso);
         if (response < 0)
         {
             return BadRequest();
         }
-        return _mapper.Map<CursoDto>(curso);
+        return _mapper.Map<Nota>(curso);
     }
 
     [HttpPut("{id}")]
@@ -79,19 +79,19 @@ public class CursoController : BaseApiController
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<Curso>> Put(int id, [FromBody] Curso rolDto)
+    public async Task<ActionResult<Nota>> Put(int id, [FromBody] Nota rolDto)
     {
         if (rolDto == null)
         {
             return NotFound();
         }
-        var rol = _mapper.Map<Curso>(rolDto);
-        var response = await _cursos.Update(rol);
+        var rol = _mapper.Map<Nota>(rolDto);
+        var response = await _notas.Update(rol);
         if (response < 0)
         {
             return BadRequest();
         }
-        return _mapper.Map<Curso>(rol);
+        return _mapper.Map<Nota>(rol);
     }
 
     [HttpDelete("{id}")]
@@ -100,14 +100,14 @@ public class CursoController : BaseApiController
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<Curso>> Delete(int id)
+    public async Task<ActionResult<Nota>> Delete(int id)
     {
-        var rol = await _cursos.GetByIdAsync(id);
+        var rol = await _notas.GetByIdAsync(id);
         if (rol == null)
         {
             return NotFound();
         }
-        var response = await _cursos.Remove(rol);
+        var response = await _notas.Remove(rol);
         if (response < 0)
         {
             return BadRequest();

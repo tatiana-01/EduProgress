@@ -14,4 +14,24 @@
 
 .table, .accordion-item, .accordion-button{
     background-color: rgb(216, 224, 223);
+
 }
+
+.table{
+    width:50vw;
+}
+
+.accordion-button::after {
+    margin-left: 0;
+}
+
+.error{
+    padding: 1rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background: none;
+  }

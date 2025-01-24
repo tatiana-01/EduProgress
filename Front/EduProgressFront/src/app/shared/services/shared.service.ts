@@ -18,10 +18,10 @@ export class SharedService {
     
     getCourses(username: string, rol: string): Observable<any> {
 
-      return this.httpClient.get(`${this.url}/Curso?user=${username}&rol=${rol}`, { headers:this.headers });
+      return this.httpClient.get(`${this.url}/Curso/CursosByRolAndUser?user=${username}&rol=${rol}`, { headers:this.headers });
     }
 
     getStudents( curso: string): Observable<any> {
-      return this.httpClient.get(`${this.url}/Persona?curso=${curso}`, { headers:this.headers })
+      return this.httpClient.get(`${this.url}/Persona/StudentsByCourse?curso=${curso}`, { headers:this.headers })
     }
 }

@@ -73,6 +73,9 @@ public static class ApplicationServiceExtension
         services.AddScoped<IUsuarioRol, UsuarioRolRepository>();
         services.AddScoped<IPersona, PersonaRepository>();
         services.AddScoped<ICurso, CursoRepository>();
+        services.AddScoped<INotas, NotasRepository>();
+        services.AddScoped<IComportamiento, ComportamientoRepository>();
+        services.AddScoped<ISeguimiento, SeguimientoRepository>();
     }
     public static void AddJwt(this IServiceCollection services, IConfiguration configuration)
     {
