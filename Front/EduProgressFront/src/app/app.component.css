@@ -1,0 +1,9 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: var(--font-family-1);
+    font-size: var(--font-size-1);
+    color: var(--color-5);
+}

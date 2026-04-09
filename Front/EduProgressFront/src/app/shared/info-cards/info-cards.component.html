@@ -1,0 +1,45 @@
+
+<div class="center-container">
+    <h1>{{etiqueta}}</h1>
+</div>
+<div class="container">
+    <div class="row" *ngIf="cards!.length>0">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let card of cards">
+        <div class="card mb-4" (click)="clickCardGroup(card.nombre)">
+          <div class="card-body">
+            <h5 class="card-title">{{ rol=="Profesor" ? card.detalle : card.nombreProfesor }}</h5>
+            <p class="card-text">{{ card.nombre }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" *ngIf="cards!.length<=0">
+
+       <h2>Aun no tienes grupos</h2>
+
+    </div>
+  </div>
+
+  <div *ngIf="estudiantesView && home">
+    <div class="center-container">
+      <h1>Estudiantes</h1>
+  </div>
+  <div class="container">
+      <div class="row" *ngIf="cards2!.length>0 ">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3" *ngFor="let card of cards2">
+          <div class="card mb-4" (click)="clickCardEstu(card.detalle)">
+            <div class="card-body">
+              <h5 class="card-title">{{ card.detalle }}</h5>
+              <p class="card-text">{{ card.nombre }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" *ngIf="cards2==undefined || cards2!.length<=0">
+
+        <h2>Aun no tienes estudiantes en este grupo</h2>
+ 
+     </div>
+    </div>
+  </div>
+ 

@@ -1,0 +1,21 @@
+.home-wrapper {
+    background: whitesmoke;
+    min-height: 100vh;
+    color: black;
+}
+.banner {
+    background-color: #91c192; /* Cambia este color al que prefieras */
+    color: white;
+    padding: 20px;
+    margin: 2rem;
+
+  }
+
+  .card-title{
+    font-size: 2rem;
+  }
+
+  .h1{
+    font-size: 4rem;
+    text-align: center;
+  }

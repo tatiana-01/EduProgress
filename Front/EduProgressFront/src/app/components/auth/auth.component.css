@@ -1,0 +1,38 @@
+.login
+ {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  .alert{
+    margin: 0;
+    width: 30%;
+    
+  }
+
+  .row
+  {
+    width: 100vw;
+  }
+  .error{
+    padding: 1rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background: none;
+  }
+
+input.ng-invalid.ng-touched {
+  border: solid 2px red !important
+}
+
+.body{
+  display: flex;
+
+}

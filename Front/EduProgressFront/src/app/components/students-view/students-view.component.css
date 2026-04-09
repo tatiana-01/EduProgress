@@ -1,0 +1,37 @@
+.noteTable ,.comDiv{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accordion{
+    padding: 0 5rem 5rem 5rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.table, .accordion-item, .accordion-button{
+    background-color: rgb(216, 224, 223);
+
+}
+
+.table{
+    width:50vw;
+}
+
+.accordion-button::after {
+    margin-left: 0;
+}
+
+.error{
+    padding: 1rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    background: none;
+  }

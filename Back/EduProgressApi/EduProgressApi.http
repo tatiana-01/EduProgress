@@ -1,0 +1,6 @@
+@EduProgressApi_HostAddress = http://localhost:5287
+
+GET {{EduProgressApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
